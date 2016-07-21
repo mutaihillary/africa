@@ -1,0 +1,36 @@
+body{
+  background-color: grey;
+  padding: 10px;
+  margin: 10px auto;
+}
+header{
+  color: yellow;
+  margin: 10px;
+}
+  h1 {
+color: blue;
+font-size: 36px;
+align-content: center;
+}
+p{
+  align-content: center;
+}
+.main-content{
+  column-gap:2em;
+	column-rule: 2px;
+  columns:300px 3;
+  margin-bottom: auto;
+  height: 50%;}
+.mini-content{
+	column-gap:2em;
+	column-rule: 2px;
+  columns:300px 3;
+  padding: 2px;
+  height: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: lightblue;
+    }
+}
